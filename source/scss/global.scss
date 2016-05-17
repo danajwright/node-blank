@@ -1,0 +1,210 @@
+
+
+
+@font-face {
+  font-family: 'Circular';
+  font-style: normal;
+  src: url('../../fonts/circular-book.eot') format('embedded-opentype'),
+  url('../../fonts/circular-book.ttf') format('truetype'),
+  url('../../fonts/circular-book.svg') format('svg'),
+  url('../../fonts/circular-book.woff') format('woff'),
+  url('../../fonts/circular-book.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Circular';
+  font-weight: 600;
+  src: url('../../fonts/circular-black.eot') format('embedded-opentype'),
+  url('../../fonts/circular-black.ttf') format('truetype'),
+  url('../../fonts/circular-black.svg') format('svg'),
+  url('../../fonts/circular-black.woff') format('woff'),
+  url('../../fonts/circular-black.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Circular';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../../fonts/circular-medium.eot') format('embedded-opentype'),
+  url('../../fonts/circular-medium.ttf') format('truetype'),
+  url('../../fonts/circular-medium.svg') format('svg'),
+  url('../../fonts/circular-medium.woff') format('woff'),
+  url('../../fonts/circular-medium.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Circular';
+  font-weight: 800;
+  src: url('../../fonts/circular-bold.eot') format('embedded-opentype'),
+  url('../../fonts/circular-bold.ttf') format('truetype'),
+  url('../../fonts/circular-bold.svg') format('svg'),
+  url('../../fonts/circular-bold.woff') format('woff'),
+  url('../../fonts/circular-bold.otf') format('opentype');
+}
+
+
+body {
+  background-color: #fff;
+}
+
+
+.clearfix {
+	clear: both;
+}
+
+a {
+  color: rgba(255,255,255,.85);
+  font-family: 'Circular', sans-serif;
+  -webkit-font-smoothing: 'antialiased';
+  -webkit-transition: 150ms ease-in;
+  -moz-transition: 150ms ease-in;
+  -o-transition: 150ms ease-in;
+  transition: 150ms ease-in;
+}
+
+a:hover {
+  cursor: pointer;
+  text-decoration: none
+}
+
+a:focus {
+  color: rgba(255,255,255,.85);
+  text-decoration: none;
+  outline: none;
+  outline: 0px auto -webkit-focus-ring-color;
+  outline-offset: 0px;
+}
+
+p {
+  font-family: 'Circular', sans-serif;  
+  -webkit-font-smoothing: 'antialiased';
+  color: #666;
+}
+
+h1 {
+  color: #696969;
+  font-family: 'Circular', sans-serif;
+  -webkit-font-smoothing: 'antialiased';
+  font-weight: 800;
+}
+
+h2 {
+  color: #696969;
+  font-family: 'Circular', sans-serif;
+  -webkit-font-smoothing: 'antialiased';
+  font-weight: 800;
+}
+
+h3 {
+  color: #666;  
+  font-family: 'Circular', sans-serif;
+  -webkit-font-smoothing: 'antialiased';
+}
+
+span {
+  color: rgb(102, 102, 102);
+  -webkit-font-smoothing: 'antialiased';
+}
+
+
+.constrainer {
+  margin: auto;
+  max-width: 390px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.nav-constrainer {
+  margin: auto;
+  max-width: 390px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+@media (min-width: 480px) {
+
+.constrainer {
+  margin: auto;
+  max-width: 460px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.nav-constrainer {
+  margin: auto;
+  max-width: 460px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+}
+
+
+
+@media (min-width: 768px) {
+
+.constrainer {
+  margin: auto;
+  max-width: 690px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+.nav-constrainer {
+  margin: auto;
+  max-width: 690px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+}
+
+
+@media (min-width: 991px) {
+
+.constrainer {
+  margin: auto;
+  max-width: 930px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.nav-constrainer {
+  margin: auto;
+  max-width: 930px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+}
+
+
+@media (min-width: 1050px) {
+
+.constrainer {
+  margin: auto;
+  max-width: 1000px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.nav-constrainer {
+  margin: auto;
+  max-width: 1000px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+

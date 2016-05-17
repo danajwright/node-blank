@@ -1,0 +1,126 @@
+ 
+
+/*----------------- GRAPHIC SECTION -------------------*/
+
+
+.graphic {
+}
+
+.graphic-header {
+	font-size: 39px;
+	color: #696969;
+	text-align: center;
+	line-height: 50px;
+	margin-top: 0px;
+}
+
+.graphic-container {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 90px;
+	background-image: url(../../img/vmg-graphic9.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: 760px;
+    max-width: 600px;
+}
+
+.graphic-row1 {
+	height: 218px;
+}
+
+.graphic-row2 {
+	height: 280px;
+}
+
+.graphic-txt {
+	margin-top: 83px;
+	font-size: 18px;
+	text-align: right;
+	padding-right: 27px;
+}
+
+.graphic-txt1 {
+	text-align: left;
+	padding-left: 27px;
+}
+
+.mission-txt {
+	margin-top: 40px;
+	color: #b3b3b3;
+	font-size: 15.5px;
+	line-height: 27px;
+	color: #666;
+	font-family: 'Arial', sans-serif;
+}
+
+
+
+@media (min-width: 480px) {
+
+.who-txt-header {
+	font-size: 36px;
+}
+
+}
+
+
+@media (min-width: 768px) {
+
+.subpage-nav-mobile-button {
+	display: none;
+}
+
+.subpage-nav-items {
+	display: block;
+}
+
+.subpage-nav-items {
+	margin-top: 46px;
+}
+
+.subpage-nav-items a {
+	padding-left: 28px;
+	text-transform: uppercase;
+}
+
+.about-banner-header-txt {
+	font-size: 43px;
+	line-height: 60px;
+}
+
+.who-img {
+	width: 30%;
+	display: block;
+}
+
+.who-number {
+	width: 18%;
+}
+
+}
+
+
+@media (min-width: 991px) {
+
+.who-number {
+	width: 12%;
+}
+
+.who-img img {
+	width: 80%;
+}
+
+
+}
+
+
+
+@media (min-width: 1050px) {
+
+}
+
+
+@media (min-width: 1200px) {
+
+}
